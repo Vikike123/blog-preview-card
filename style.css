@@ -24,6 +24,7 @@ body {
 .card{
     background-color: var(--white);
     width: 384px;
+    height: 522px;
     padding: 1.5rem;
     border-radius: 1rem;
     outline: 1px solid var(--black);
@@ -52,30 +53,33 @@ svg {
 .first-section {
     background-color: var(--yellow);
     width: min-content;
-    padding: 0.5rem;
+    padding: 4px 12px;
     border-radius: 0.5rem;
-    margin-top: 1rem;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
 }
 
 .second-section {
     margin-top: 0.5rem;
-   
+    font-size: 14px;
+    line-height: 150%;
     font-weight: 600;
 }
 
 .third-section {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 800;
+    line-height: 150%;
 }
 
 .fourth-section {
     margin-top: 1rem;
     color: var(--grey);
-    line-height: 1rem;
     font-weight: 600;
-  
+    line-height: 150%;
+    font-size: 16px;
 }
 
 .fifth-section {
@@ -90,7 +94,16 @@ svg {
 }
 
 .attribution {
-    margin-top: 1rem;
+    margin-top: 3rem;
+}
+
+.box {
+    height: 200px;
+    margin-top: 24px;
+}
+
+img {
+    width: 32px;
 }
 
 @media(max-width: 375px) {
